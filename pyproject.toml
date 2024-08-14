@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pdf-search-llm-rag"
+version = "0.1.0"
+description = ""
+authors = ["DavidAmat"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9.19,<3.13"
+PyPDF2 = "^3.0.1"
+pandas = "<2.2.0"
+pyarrow = "^17.0.0"
+sentence-transformers = "^3.0.1"
+python-dotenv = "^1.0.1"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
