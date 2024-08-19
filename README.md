@@ -16,9 +16,14 @@ python -m ipykernel install --user --name=kr_llm_rag
 pip install hopsworks
 ```
 
-# Hopswork
+# OpenSearch
 
-Project name: pdfsearchllmrag
+OpenSearch is a free and open-source search and analytics engine that is commonly used for indexing, searching, and analyzing large datasets. It is a community-driven project that originated as a fork of Elasticsearch and Kibana after changes to Elasticsearch's licensing model. 
+
+OpenSearch has added support for vector search capabilities, which makes it capable of serving as a vector database. 
+
+
+
 # Issues
 
 
